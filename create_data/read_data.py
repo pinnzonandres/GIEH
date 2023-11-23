@@ -33,7 +33,7 @@ def process_data(month_name:str)-> pd.DataFrame:
     
     # Características Personales
     persona_cols = ['DIRECTORIO','SECUENCIA_P','ORDEN','PT','POB_MAY18','P3271','P6040','P6050','P6083','P6081','P2057','P2059',
-                     'P2061','P6080','P6070','P6160','P6170','P3041','P3042','P3042S1','P3042S2','P3043','P3043S1','P3039']
+                     'P2061','P6080','P6070','P6160','P6170','P3041','P3042','P3042S2','P3043','P3043S1','P3039']
     personas = db['caracteristicas'][persona_cols]
     
     
